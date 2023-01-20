@@ -100,3 +100,30 @@ body{
     left: 54em;
     bottom: 23em;
 }
+
+.grid2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 8px;
+}
+
+.grid-container2{
+    background-color: rgb(167, 179, 3);
+}
+
+.contact-button{
+    padding: 16px;
+    border-radius: 8px;
+    width: 12em;
+    border-color: #fff;
+}
+
+.par-text1{
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+.par-text2{
+    color: #fff;
+    margin-left: 4em;
+}
