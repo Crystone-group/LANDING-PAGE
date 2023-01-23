@@ -127,3 +127,84 @@ body{
     color: #fff;
     margin-left: 4em;
 }
+/* this is the begining of Taiwo css section */ 
+.firstSection{
+    position: relative;
+}
+
+
+.firstSection h1{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+@media screen and (max-width: 600px) {
+    .firstSection h1{
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+    
+}}
+
+.firstSection .curly{
+    width: 10%;
+    height: 4%;
+}
+.firstSection .starr{
+    margin-left: 60%;
+}
+
+.secondSection .daily{
+    width: 40%;
+    height: 100%;
+    margin-inline: 15%;
+}
+
+@media screen and (max-width: 600px) {
+    .secondSection .daily{
+        width: 50%;
+        height: 100%;
+}
+}
+
+div.secondSection {
+    display: flex ;
+    justify-content: center;
+    margin-top: 0%;
+    margin-left: 20%;
+    font-size: 130%;
+    width: fit-content;
+    top: 50%;
+    word-wrap: break-word;
+}
+@media screen and (max-width: 600px) {
+    div.secondSection {
+        display: grid ;
+        justify-content: center;
+        margin-top: 0%;
+        margin-left: 10%;
+        font-size: 110%;
+        width: fit-content;
+        top: 50%;
+        
+    }
+
+}
+
+.star{
+    margin-left: 50%;
+    
+}
+@media screen and (max-width: 600px) {
+  
+.star{
+    margin-left: 40%;
+    
+}  
+}
+
+/*This is the end of Taiwo css section */
