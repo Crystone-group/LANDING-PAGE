@@ -1,17 +1,79 @@
-<<<<<<< HEAD
-*{
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    margin: 16px;
+    list-style-type: none;
 }
 
+body {
+    font-family: 'poppins';
+    width: 99.99%;
+}
+
+header {
+    background: linear-gradient(to right, white 0%, white 55%, black 55%, black 100%);
+    /* height: 100vh; */
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    padding: 0 2.5%;
+}
+
+.navlink {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-gap: 30px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.sign_up {
+    background: white;
+    padding: 15px 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.navlink li a {
+    color: black;
+    text-decoration: none;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2.5%;
+    align-items: center;
+}
+
+.hero_text {
+    align-items: center;
+}
+
+.htext {
+    font-size: 48px;
+    /* width: 50%; */
+    margin: 10px 0;
+}
+
+.get_btn {
+    background-color: black;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    align-items: center;
+    padding: 20px 35px;
+    display: flex;
+    margin: 20px 0;
+    font-size: 20px;
+}
 
 @font-face{
     font-family: poppins;
     src: url(“poppins/Poppins-Regular.ttf”)
-}
-
-body{
-    font-family: poppins;
 }
 
 .top{
@@ -31,6 +93,7 @@ body{
     'j b k';
 
     gap: 2px;
+    
 }
 
 .item1{
@@ -80,7 +143,6 @@ body{
 }
 
 .iphone-img{
-    width: 30em;
     height: 46em;
 }
 
@@ -98,7 +160,7 @@ body{
     width: 10em;
     height: 12em;
     position: absolute;
-    left: 54em;
+    right: 0;
     bottom: 23em;
 }
 
@@ -128,6 +190,8 @@ body{
     color: #fff;
     margin-left: 4em;
 }
+
+
 /* this is the begining of Taiwo css section */ 
 .firstSection{
     position: relative;
@@ -209,76 +273,3 @@ div.secondSection {
 }
 
 /*This is the end of Taiwo css section */
-=======
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style-type: none;
-}
-
-body {
-    font-family: 'poppins';
-}
-
-header {
-    background: linear-gradient(to right, white 0%,  white 55%, black 55%, black 100%);
-    /* height: 100vh; */
-}
-
-.navbar {
-    display: grid;
-    grid-template-columns: auto auto;
-    align-items: center;
-    padding: 0 2.5%;
-}
-
-.navlink {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
-    grid-gap: 30px;
-    align-items: center;
-    font-size: 18px;
-}
-
-.sign_up {
-    background: white;
-    padding: 15px 25px;
-    text-align: center;
-    border-radius: 5px;
-}
-
-.navlink li a {
-    color: black;
-    text-decoration: none;
-}
-
-.hero {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2.5%;
-    align-items: center;
-}
-
-.hero_text {
-    align-items: center;
-}
-
-.htext {
-    font-size: 48px;
-    /* width: 50%; */
-    margin: 10px 0;
-}
-
-.get_btn {
-    background-color: black;
-    border: none;
-    border-radius: 7px;
-    color: white;
-    align-items: center;
-    padding: 20px 35px;
-    display: flex;
-    margin: 20px 0;
-    font-size: 20px;
-}
->>>>>>> c817ced (hero section done)
