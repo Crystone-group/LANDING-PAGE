@@ -271,3 +271,53 @@ div.secondSection {
 }
 
 /*This is the end of Taiwo css section */
+
+/* This is Wisdom css section */
+
+
+  
+  
+  div.connect {
+    display: flex ;
+    justify-content: center;
+    margin-top: 0%;
+  
+  }
+  
+  
+  
+  .con {
+    width: 80%;
+    height: 90%;
+    margin-left: 15%;
+    
+  }
+  .connect1{
+    
+    margin-top: 10%;
+    width: 150%;
+    
+    
+  }
+  .connect1 h3{
+    text-decoration: solid;
+    font-size: 190%;
+  }
+  
+   .connect a{
+    text-decoration-line: none;
+    background-color: #00A66A;
+    color: aliceblue;
+    margin-right: 65%;
+    display: block;
+    width: 15%;
+    height: 8%;
+    border-radius: 0px;
+     font-size: 20px;
+    font-weight: 200;
+  }
+  .visa{
+    width: 20%;
+    height: 40%;
+  }
+  /*end of Wisdom css section */
