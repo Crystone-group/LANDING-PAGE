@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+    /* @import url(https://rsms.me/inter/); */
+
+}
+
+body{
+   /* height: auto; 
+   width: 100%; */
+   background-image: url("./Images/Rectangle 13.png"); 
+   background-size: cover;
+   align-items: center;
+   /* margin: auto; */
+   /* display: flex; */
+   /* justify-content: center; */
+
+}
+
+/* @media screen and (min-width: 600px) { */
+    
+
+
+
+@media screen and (min-width: 600px) and (max-width: 900px)
+ {
+    /* text-align: */
+    /* styles for screens between 600px and 900px */
+  }
+
+
+h1{
+    margin:auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color:#00A86B;
+    /* position: absolute; */
+    font-family: Inter;
+    font-size: 57px;
+    /* font-weight: 700; */
+    line-height: 69px;
+    letter-spacing: 0em;
+    padding: 350px;
+    /* padding-top:305px;
+    padding-right:143px;
+    padding-bottom:650px;
+    padding-left: 144px; */
+    /* margin-bottom: 650px; */
+
+}
+
+
+p{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: center;
+    display:flex;
+    margin: auto;
+    justify-content: center;
+    height: 98px;
+    width: 542px;
+    left: 88px;
+    top: 461.00341796875px;
+    border-radius: nullpx;
+    color: #01A86E;
+    padding-top: 461px;
+    /* padding-right: 87px; */
+    padding-bottom: 465px;
+    /* padding-left: 88px; */
+    margin-top: 85px;
+
+
+
+}
+button{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 87px;
+    width: 384.6315612792969px;
+    transition-duration: 0.4s;
+    border-radius: 45.78947448730469px;
+    color: #01A86E;
+    border: 0.92px solid #01A86E;
+    cursor: pointer;
+    margin-bottom: 321px;
+    
+} 

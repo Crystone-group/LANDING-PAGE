@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+h1{
+  height: 77px;
+  width: 491px;
+  left: 837px;
+  top: 81px;
+  border-radius: nullpx;
+  color: #FEBB21;
+  /* background: #FEBB21; */
+  font-family: Inter;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77px;
+  letter-spacing: 0em;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+
+
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f6f6f6;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background: #F6F6F6;
+
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background: #FEBB21;
+    background: rgba(254, 177, 0, 0.87);
+    border-radius: 45.7895px;
+
+    
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+    
+  }
+  
