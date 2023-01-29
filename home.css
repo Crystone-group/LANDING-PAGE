@@ -201,6 +201,8 @@ footer{
     display: flex;
     margin-top: 12em;
     justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .logo1{
@@ -226,6 +228,12 @@ footer{
     display: flex;
     justify-content: space-between;
     padding-bottom: 20px;
+}
+
+.copyright-text{
+    color: rgb(83, 197, 83);"
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* end of Osgood CSS section */
