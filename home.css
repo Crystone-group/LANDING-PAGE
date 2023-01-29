@@ -189,6 +189,45 @@ header {
     color: #fff;
     margin-left: 4em;
 }
+
+footer{
+    background-color: #000;
+}
+
+.footer-section{
+    color: #fff;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    display: flex;
+    margin-top: 12em;
+    justify-content: space-between;
+}
+
+.logo1{
+    width: 130px;
+    height: 100px;
+}
+
+.flex1{
+    color: rgb(83, 197, 83);
+    column-gap: 10px;
+}
+
+.space{
+    margin-top: 30px;
+}
+
+.copyright-section{
+    color: #fff;
+    font-size: larger;
+}
+
+.flex2{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
 /* end of Osgood CSS section */
 
 /* this is the begining of Taiwo css section */
