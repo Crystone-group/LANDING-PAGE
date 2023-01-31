@@ -4,13 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3b3bf5be24.js" crossorigin="anonymous"></script>
     <title>Sing Up</title>
     <link rel="stylesheet" href="sign up form.css">
 </head>
 <body>
-    <h1>Create Account</h1>
+
+
+  <!-- This contains the welcome page which is on the left -->
+
+  <div class="grid-container">
+    <div class="grid-item-welcome">
+      <img src="./Images/Logo.png" alt="crystonebank logo">
+        <div class="header"><h1>Welcome Back!</h1></div>
+        
+
+
+
+        <p>To keep connected with us please login with your personal info.</p><br>
+        <br>
+       <div class="button1"> <button type="button">SIGN IN</button></div>
+    </div>
+
+
+
+
+
+    <!-- This contains the sign upmpage on the right-->
+    <div class="grid-item-sign up">
+      <h2>Create Account</h2>
+      <br>
+      <br>
+      <br>
+      <!-- <div class="singleCol social-icon">
+          <div class="fb"><a href="https://facebook.com"></a>
+          <i class="fa-brands fa-facebook"></i></div>
+          <div class="twitter"><a href="https://twitter.com"></a>
+          <i class="fa-brands fa-twitter"></i></div>
+          <div class="ig"><a href="https://instagram.com"></a>
+          <i class="fa-brands fa-instagram"></i></div>
+         
+      </div> -->
+
+      <label for="name"><b>Name</b></label>
+      <input type="text" placeholder="Enter Name" name="name" required>
+  
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+  
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+  
+      <label>
+        <input type="checkbox" unchecked="unchecked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+      <div class="button2"><button type="submit" class="signupbtn">Sign Up</button></div>
+    </div>
+    <div class="grid-item-sign-up"></div>
+  </div>
+
+
+    <!-- <h1>Create Account</h1>
     <label for="name"><b>Name</b></label>
-    <input type="text" placeholder="Enter Email" name="name" required>
+    <input type="text" placeholder="Enter Name" name="name" required>
 
     <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" required>
@@ -22,9 +81,9 @@
     <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
 
     <label>
-      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      <input type="checkbox" unchecked="unchecked" name="remember" style="margin-bottom:15px"> Remember me
     </label>
-    <button type="submit" class="signupbtn">Sign Up</button>
+    <button type="submit" class="signupbtn">Sign Up</button> -->
 
 </body>
 </html>
