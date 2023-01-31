@@ -9,6 +9,11 @@ body {
     font-family: 'poppins';
     width: 99.99%;
 }
+@media screen and (max-width: 600px) {
+    body {
+        font-family: 'poppins';
+        width: 80%;
+}}
 
 header {
     background: linear-gradient(to right, white 0%, white 55%, black 55%, black 100%);
@@ -95,6 +100,20 @@ header {
     'j b k';
     margin: 0 auto;
 }
+@media screen and (max-width: 600px) {
+    .grid-container{
+        display: grid;
+        grid-template-areas: 
+        'a c'
+        'd e'
+        'b b'
+        'f g'
+        'h i'
+        'j k';
+        margin: 0 auto;
+        width: fit-content;
+    }
+}
 
 .item1{
     grid-area: a;
@@ -148,11 +167,19 @@ header {
 .flex{
     height: 52px;
     width: 52px;
+    margin-left: 120px;
 }
 
 .item1, .item2, .item3, .item5, .item6, .item7, .item8, .item9, .item10, .item11{
     display: flex;
     align-items: center;
+}
+@media screen and (max-width: 600px) {
+    .item1, .item2, .item3, .item5, .item6, .item7, .item8, .item9, .item10, .item11{
+        display: flex;
+        align-items: center;
+        width: 50%;
+    }
 }
 
 .string{
@@ -167,10 +194,14 @@ header {
     display: grid;
     grid-template-columns: 2fr 1fr;
     padding: 8px;
+    margin-top: 10em;
+    height: 280px;
+    place-content: center;
+
 }
 
 .grid-container2{
-    background-color: rgb(167, 179, 3);
+    background-color: #FAB721;
 }
 
 .contact-button{
@@ -189,6 +220,53 @@ header {
     color: #fff;
     margin-left: 4em;
 }
+
+footer{
+    background-color: #000000;
+}
+
+.footer-section{
+    color: #fff;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    display: flex;
+    margin-top: 12em;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.logo1{
+    width: 130px;
+    height: 100px;
+}
+
+.flex1{
+    color: #00A86B;
+    column-gap: 10px;
+}
+
+.space{
+    margin-top: 30px;
+}
+
+.copyright-section{
+    color: #fff;
+    font-size: larger;
+}
+
+.flex2{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.copyright-text{
+    color: #FAB721;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 /* end of Osgood CSS section */
 
 /* this is the begining of Taiwo css section */
@@ -232,8 +310,9 @@ header {
 
 @media screen and (max-width: 600px) {
     .secondSection .daily{
-        width: 50%;
-        height: 100%;
+        width: 90%;
+        height: 110%;
+        
     }
 }
 
@@ -277,21 +356,38 @@ div.secondSection {
 
   
   
-  div.connect {
+  .connect {
     display: flex ;
     justify-content: center;
     margin-top: 0%;
+    margin-bottom: 5%;
   
   }
-  
+  @media screen and (max-width: 600px) {
+  div.connect{
+    display: grid;
+    justify-content: center;
+    margin-top: 0%;
+    margin-bottom: 5%;
+  }
+
+  }
+ 
   
   
   .con {
-    width: 80%;
+    width: 60%;
     height: 90%;
     margin-left: 15%;
     
   }
+  @media screen and (max-width: 600px) {
+    .con {
+    width: 90%;
+    height: 110%;
+  }
+  }
+
   .connect1{
     
     margin-top: 10%;
@@ -311,13 +407,34 @@ div.secondSection {
     margin-right: 65%;
     display: block;
     width: 15%;
-    height: 8%;
-    border-radius: 0px;
-     font-size: 20px;
+    height: 10%;
+    border-radius: 5px;
+     font-size: 15px;
     font-weight: 200;
+    margin-top: 0%;
   }
+  @media screen and (max-width: 600px) {
+    .connect a{
+        margin-left: 10%;
+        width: 20%;
+        
+    }
+  }
+ 
+
+
+
+
   .visa{
     width: 20%;
     height: 40%;
   }
+  @media screen and (max-width: 600px) {
+    .visa{
+        width: 40%;
+        height: 40%;
+     
+      }
+
+}
   /*end of Wisdom css section */
