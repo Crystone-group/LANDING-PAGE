@@ -167,6 +167,7 @@ header {
 .flex{
     height: 52px;
     width: 52px;
+    margin-left: 120px;
 }
 
 .item1, .item2, .item3, .item5, .item6, .item7, .item8, .item9, .item10, .item11{
@@ -193,6 +194,10 @@ header {
     display: grid;
     grid-template-columns: 2fr 1fr;
     padding: 8px;
+    margin-top: 10em;
+    height: 280px;
+    place-content: center;
+
 }
 
 .grid-container2{
@@ -217,7 +222,7 @@ header {
 }
 
 footer{
-    background-color: #000;
+    background-color: #000000;
 }
 
 .footer-section{
@@ -237,7 +242,7 @@ footer{
 }
 
 .flex1{
-    color: rgb(83, 197, 83);
+    color: #00A86B;
     column-gap: 10px;
 }
 
@@ -257,7 +262,7 @@ footer{
 }
 
 .copyright-text{
-    color: rgb(83, 197, 83);"
+    color: #FAB721;
     margin-left: 20px;
     margin-right: 20px;
 }
