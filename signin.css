@@ -73,20 +73,31 @@ body{
 
 .social-icon{
     display: flex;
-    
-    /* margin-right: 20%; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 63.6px;
+    height: 56.40449523925781px;
+    left: 531px;
+    right: 200px;
+    top: 242px;
+    border-radius: 0px;
+    margin: 80%  20% 0% 30%;  
+}
+
+/* .socal-icon{
+    cursor: pointer;
+    display: flex;
+    margin: auto;
     align-items: center;
     justify-content: center;
     gap: 25px;
     height: 56.40449523925781px;
-    /* width: 56.40449523925781px; */
-    left: 531px;
+    width: 56.40449523925781px;
+    left: 931px;
     top: 242px;
     border-radius: 0px;
-    margin: 110% 1%;
-    
-    
-  }
+} */
 /* .icon{
     display: flex;
     align-items: center;

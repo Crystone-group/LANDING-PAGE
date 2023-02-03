@@ -16,7 +16,8 @@ body {
 }}
 
 header {
-    background: linear-gradient(to right, white 0%, white 55%, black 55%, black 100%);
+    background-image: url(Images/Group\ 98.png);
+    background: linear-gradient(to right, white 0%, white 55%, black 50%, black 100%);
     /* height: 100vh; */
 }
 
@@ -27,9 +28,9 @@ header {
     padding: 0 2.5%;
 }
 
-.right-nav{
+/* .right-nav{
     background-image: url(./Images/Group\ 98.png);
-}
+} */
 
 .navlink {
     display: grid;
@@ -52,6 +53,7 @@ header {
 }
 
 .hero {
+    /* background-image: url(Images/Rectangle\ 29.png); */
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0 2.5%;
@@ -69,7 +71,7 @@ header {
 
 
 .paragraph1{
-    color: rgba(0, 0, 0, 0.56);
+    /* color: rgba(0, 0, 0, 0.56); */
     position: absolute;
     width: 236px;
     height: 35px;
@@ -79,7 +81,7 @@ header {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 177.02%;
     color: #545454;
 }
@@ -158,6 +160,7 @@ button:hover{
     margin-bottom: 2em;
     font-weight: bold;
     font-size: larger;
+    
 }
 
 .grid-container{
@@ -168,7 +171,14 @@ button:hover{
     'f b g'
     'h b i'
     'j b k';
-    margin: 0 auto;
+    /* position: absolute; */
+    /* width: 405.44px; */
+    /* height: 727px; */
+    left: 517px;
+    right: 517px;
+    /* top: 1953px; */
+    /* margin-left: 0 ; */
+    /* margin-right: 0; */
 }
 @media screen and (max-width: 600px) {
     .grid-container{
@@ -294,7 +304,32 @@ button:hover{
 footer{
     background-color: #000000;
 }
-
+.learn{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 211px;
+    height: 78px;
+    left: 630px;
+    /* bottom: 5px; */
+    /* right: px; */
+    padding:  17px;
+    margin-bottom: 30px;
+    background: #00A66A;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    width: 150px;
+    height: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    font-size: 27px;
+    line-height: 177.02%;
+    /* identical to box height, or 48px */
+    color: #FFFFFF;
+}
 .footer-section{
     color: #fff;
     padding-bottom: 20px;
