@@ -5,20 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign in page</title>
+    <script src="https://kit.fontawesome.com/3b3bf5be24.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Inter">
     <link rel="stylesheet" href="signin.css">
-
 </head>
+
 <body>
-    <div class="signin">
-        <img src="./Images/Logo.png" alt="crystonebank logo">
-        <div class="header"><h1>Welcome Back!</h1></div>
-        
+    <div class="container">
+        <div class="left-container">
+            <div class="logo"><a href="http://127.0.0.1:5501/home.html"><img src="./Images/Logo.png" alt=""></a>
+            </div>
+            <div class="header">Hello, Friend!</div>
+            <div class="paragraph">Enter your personal details and start a journey with us</div>
+            <div class="submit-button1"><button>SIGN UP</button></div>
+        </div>
 
 
+        <div class="right-container">
+            <div class="sign-in">Sign In</div>
+            <div class="social-icon">
+                <div><img src="./Images/Facebook light.png" alt="facebook icon"></div>
+                <div><img src="./Images/Twitter Light.png" alt="twitter icon"></div>
+                <div><img src="./Images/Instagram Light.png" alt="instagram icon"></div>
+            </div>
+            <div class="input">
+                <div><label for="email"><b>Email</b></label>
+                    <i class="fas fa-envelope"></i>
+                    <!-- Email: -->
+                    <input type="text" placeholder="Enter Email" name="email" required>
+                    <label for="psw"><b>Password</b></label>
+                    <i class="fas fa-lock"></i>
+                    <!-- Password: -->
+                    <input type="text" placeholder="Enter Password" name="psw" required>
+                </div>
+  
 
-        <p>To keep connected with us please login with your personal info.</p>
-        <button type="button">SIGN IN</button>
-        <!-- <form action="/Landing-Page/signin.html"></form> -->
+            </div>
+            <p class="reset">Forgot your password? <a href="#">Reset here!</a></p>
+            <div class="submit-button2"><button>Sign In</button></div>
+
+        </div>
     </div>
+    
+
+
+
 </body>
 </html>

@@ -15,7 +15,7 @@
 
   <div class="grid-container">
     <div class="grid-item-welcome">
-      <img src="./Images/Logo.png" alt="crystonebank logo">
+       <img src="./Images/Logo.png" alt="crystonebank logo">
         <div class="header"><h1>Welcome Back!</h1></div>
         
 
@@ -23,67 +23,95 @@
 
         <p>To keep connected with us please login with your personal info.</p><br>
         <br>
-       <div class="button1"> <button type="button">SIGN IN</button></div>
+       <!-- <div class="button1"><button type="submit">SIGN IN</button></div> -->
+       <button type="submit" class="submit-button1">Sign up</button>
     </div>
 
 
 
 
 
-    <!-- This contains the sign upmpage on the right-->
+    <!-- This contains the sign up page on the right-->
     <div class="grid-item-sign up">
       <h2>Create Account</h2>
       <br>
       <br>
       <br>
-      <!-- <div class="singleCol social-icon">
-          <div class="fb"><a href="https://facebook.com"></a>
-          <i class="fa-brands fa-facebook"></i></div>
-          <div class="twitter"><a href="https://twitter.com"></a>
-          <i class="fa-brands fa-twitter"></i></div>
-          <div class="ig"><a href="https://instagram.com"></a>
-          <i class="fa-brands fa-instagram"></i></div>
-         
-      </div> -->
 
-      <label for="name"><b>Name</b></label>
-      <input type="text" placeholder="Enter Name" name="name" required>
-  
-      <label for="email"><b>Email</b></label>
-      <input type="text" placeholder="Enter Email" name="email" required>
-  
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-  
-      <label for="psw-repeat"><b>Repeat Password</b></label>
-      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-  
-      <label>
-        <input type="checkbox" unchecked="unchecked" name="remember" style="margin-bottom:15px"> Remember me
-      </label>
-      <div class="button2"><button type="submit" class="signupbtn">Sign Up</button></div>
+      <!-- This icons where done using the font awsome link above -->
+
+      <div class="icon">
+        <div class="facebook"><img src="./Images/Facebook light.png" alt="facebook icon"></div>
+        <div class="twitter"><img src="./Images/Twitter Light.png" alt="twitter icon"></div>
+        <div class="istagram"><img src="./Images/Instagram Light.png" alt="instagram icon"></div>
+     </div>
+      
+
+
+      <form action="sign up">
+        <div class="form">
+         <label for="user name"><b>Name</b></label>
+         <i class="fas fa-user"></i> 
+         <!-- user name: -->
+         <input type="text" placeholder="Enter Name" name="name" required>
+         <label for="email"><b>Email</b></label>
+         <i class="fas fa-envelope"></i>
+         <!-- Email: -->
+         <input type="text" placeholder="Enter Email" name="email" required>
+         <label for="psw"><b>Password</b></label>
+         <i class="fas fa-lock"></i>
+         <!-- Password: -->
+         <input type="password" placeholder="Enter Password" name="psw" required>
+         <label for="psw-repeat"><b>Repeat Password</b></label>
+         <i class="fas fa-lock"></i>
+         <!-- Repeat Password -->
+         <input type="password" placeholder="Repeat Password" name="psw-repeat" required><label>
+         <!-- <input type="checkbox" unchecked="unchecked" name="remember" style="margin-bottom:15px"> Remember me -->
+         </label>
+
+        </div>
+        <div><button type="submit"class="submit-button2">SIGN UP</button></div>
+      </form>
+      
+
+      
+      <!-- <button type="submit" class="signup-btn">Sign Up</button> -->
     </div>
+    <!-- <button type="submit" class="signin-btn">Sign In</button> -->
     <div class="grid-item-sign-up"></div>
-  </div>
+  </div> 
+
+  
+  <!-- <form>
+    <div class="form-group">
+      <label for="username">
+        <i class="fas fa-user"></i>
+        Username:
+      </label>
+      <input type="text" id="username">
+    
+    
+    
+      <label for="email">
+        <i class="fas fa-envelope"></i>
+        Email:
+      </label>
+      <input type="email" id="email">
+    
+    
+    
+      <label for="password">
+        <i class="fas fa-lock"></i>
+        Password:
+      </label>
+      <input type="password" id="password">
+    </div>
+    
+    <button type="submit" class="signup-btn">Sign Up</button>
+  </form> -->
 
 
-    <!-- <h1>Create Account</h1>
-    <label for="name"><b>Name</b></label>
-    <input type="text" placeholder="Enter Name" name="name" required>
-
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-
-    <label>
-      <input type="checkbox" unchecked="unchecked" name="remember" style="margin-bottom:15px"> Remember me
-    </label>
-    <button type="submit" class="signupbtn">Sign Up</button> -->
+    
 
 </body>
 </html>
