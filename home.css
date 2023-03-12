@@ -61,6 +61,9 @@ header {
     background-image: url(./Images/Group\ 76.png);
 }
 
+
+
+
 .img-navbar{
     margin-left: auto;
     
@@ -543,3 +546,53 @@ div.secondSection {
 
 }
   /*end of Wisdom css section */
+
+
+  /* TOGGLE BUTTON CSS CODE */
+  .toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+  }
+  .toggle-button .bar {
+    height: 3px;
+     width: 100%;
+     background-color: white;
+     border-radius: 10px;
+
+  }
+  @media (max-width: 1400px ) {
+    .toggle-button{
+        display: flex;
+
+    }
+    .navlink {
+        display: none;
+        width: 100%;
+    }
+    .navbar {
+        flex-direction: column;
+        display: flex;
+        align-items: flex-start; 
+
+    }
+    .navlink ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navlink li{
+        text-align: center;
+    }
+    .navlink li a {
+        padding: .5rem 1rem;
+    }
+    .navlink.active {
+        display: flex;
+    }
+  }

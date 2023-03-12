@@ -8,11 +8,31 @@
     <title>Crystone Bank</title>
 
     <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="background_styles.css">
+    <!--JAVASCRIPT FOR THE TOGGLE BUTTON 
+    / NAVBAR-->
+    <script> 
+        const toggleButton = document.getElementsByClassName("toggle-button")[0]
+        const navlink = document.getElementsByClassName("navlink")[0]
+        
+        toggleButton.addEventListener("click", () => {
+          navlink.classList.toggle("active");
+        });
+        
+    </script>
 </head>
 <body>
     <header>
         <nav class="navbar">
             <div><a href="http://127.0.0.1:5501/home.html"><img src="./Images/CRYSTONE TRANSPARENT BG side b 3.png" alt="_logo" style="width: 200px;"></a></div>
+             
+            <!--TOGGLE BUTTON-->
+            <a href="#" class="toggle-button">
+             <span class="bar"></span> 
+             <span class="bar"></span> 
+             <span class="bar"></span>   
+            </a>
+            <!--TOGGLE BUTTON-->
             <div>
                 <ul class="navlink">
                     <li>
@@ -21,9 +41,7 @@
                     <li>
                         <a href="#">About</a>
                     </li>
-                    <li>
-                        <a href="#">App</a>
-                    </li>
+                
                     <li>
                         <a href="#" style="color: white;">Contact</a>
                     </li>
@@ -54,8 +72,8 @@
                 </button>
             </div>
 
-            <div>
-                <img src="./Images/Mockup image.png" alt="dashboard" class="">
+            <div class="Iphone14">
+                <img src="./Images/Mockup image.png" alt="dashboard" class="mock">
             </div>
         </div>
     </header>
