@@ -11,20 +11,27 @@
     <link rel="stylesheet" href="background_styles.css">
     <!--JAVASCRIPT FOR THE TOGGLE BUTTON 
     / NAVBAR-->
-    <script> 
-        const toggleButton = document.getElementsByClassName("toggle-button")[0]
-        const navlink = document.getElementsByClassName("navlink")[0]
-        
-        toggleButton.addEventListener("click", () => {
-          navlink.classList.toggle("active");
-        });
-        
+    <script>
+        window.onload = function () {
+            const toggleButton = document.getElementsByClassName("toggle-button")[0];
+            const navlink = document.getElementsByClassName("navlink")[0];
+          
+            toggleButton.addEventListener("click", () => {
+              navlink.classList.toggle("active");
+            });
+          };
+          
+
+
     </script>
+   
+
+
 </head>
 <body>
-    <header>
+    <body>
         <nav class="navbar">
-            <div><a href="http://127.0.0.1:5501/home.html"><img src="./Images/CRYSTONE TRANSPARENT BG side b 3.png" alt="_logo" style="width: 200px;"></a></div>
+            <div class="loggo"><img src="./Images/CRYSTONE TRANSPARENT BG side b 3.png" alt="_logo" style="width: 200px;"></div>
              
             <!--TOGGLE BUTTON-->
             <a href="#" class="toggle-button">
@@ -33,50 +40,63 @@
              <span class="bar"></span>   
             </a>
             <!--TOGGLE BUTTON-->
-            <div>
-                <ul class="navlink">
+            <div class="navlink">
+                <ul >
                     <li>
-                        <a href="http://127.0.0.1:5501/home.html">Home</a>
+                        <a style="color: #FAB721;" href="http://127.0.0.1:5501/home.html">Home</a>
                     </li>
                     <li>
                         <a href="#">About</a>
                     </li>
                 
                     <li>
-                        <a href="#" style="color: white;">Contact</a>
+                        <a href="#" >Contact</a>
                     </li>
                     <li>
-                        <a href="http://127.0.0.1:5501/sign-up-form.html" style="color: white;">Request Invite</a>
+                        <a href="http://127.0.0.1:5501/sign-up-form.html" >Request Invite</a>
                     </li>
                     <li>
-                        <a href="./signin.html" style="color: white;">Sign In</a>
+                        <a href="./signin.html" >Sign In</a>
                     </li>
-                    <li class="sign_up">
-                        <a href="./sign-up-form.html">Sign Up</a>
+                    
+                    
+                    <li>
+                        <a style="background-color: #09A96F;" href="./sign-up-form.html">Sign Up</a>
                     </li>
+                   
                 </ul>    
             </div>
         </nav>
+            <header >
+                <div class="hero">
+                    
+                    <div class="hero_text">
+                        <p class=paragraph1>WE ARE CRYSTONE BANK</p>
+        
+                        <h1 class="htext">Every day, make the best financial decisions you can.</h1>
+        
+                        <p class="paragraph2">Upgrade your finances and join the Gen Z digital banking revolution!</p>
+        
+                        <button type="submit" class="get_btn">
+                            Get Started &rarr;
+                           
+                        </button>
+                        </div>
 
-        <div class="hero">
-            <div class="hero_text">
-                <p class=paragraph1>WE ARE CRYSTONE BANK</p>
 
-                <h1 class="htext">Every day, make the best financial decisions you can.</h1>
+                        <div class="Iphone14">
+                            <img src="./Images/Group 145.png" alt="dashboard" class="mock">
+                        </div>
 
-                <p class="paragraph2">Upgrade your finances and join the Gen Z digital banking revolution!</p>
 
-                <button type="submit" class="get_btn">
-                    Get Started &rarr;
-                    <!-- <span class="link_arrow"><img src="./Images/get_started_vector.png" alt=""></span> -->
-                </button>
-            </div>
 
-            <div class="Iphone14">
-                <img src="./Images/Mockup image.png" alt="dashboard" class="mock">
-            </div>
-        </div>
-    </header>
+                    </div>
+
+
+
+
+
+            </header>
 
     <main></main>
 
