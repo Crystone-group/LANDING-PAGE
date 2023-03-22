@@ -25,6 +25,7 @@ body {
      div.hero  {
         display: grid;
     justify-content: center;
+    display: none;
         }}
     .paragraph1{
          font-family: 'Poppins';
@@ -47,12 +48,16 @@ body {
        font-size: 20px;
        border-radius: 10px;
        }
-       @media screen and (max-width: 600px) {
-       .mock {
-        width: 90%;
-        height: 110%;
-       }
-      
+       @media screen and (min-width: 600px) {
+       .girlimage {
+        display: none;
+        }
+      }
+      @media screen and (max-width: 600px) {
+      .girlimage {
+        width: 100%;
+        height: 100%;
+      }
     }
    /* the end pf header section css code */
   
@@ -94,6 +99,14 @@ display: flex;
     padding: 0.5rem;
     display: block;
 }
+.signup {
+    background-color: #09A96F;
+}
+@media screen and (max-width: 600px) {
+    .signup {background-color: black;}
+}
+
+
 /* this is end of the navbar css properties */
 
 /* TOGGLE BUTTON responsivness CSS CODE */
@@ -106,12 +119,14 @@ display: flex;
     justify-content: space-between;
     width: 30px;
     height: 21px;
+    margin-top: 7%;
   }
   .toggle-button .bar {
     height: 3px;
      width: 100%;
-     background-color: black;
+     background-color: #FEB102;
      border-radius: 10px;
+    
 
   }
   @media (max-width: 600px ) {
@@ -128,14 +143,15 @@ display: flex;
    
 
     .navbar {
-        flex-direction: column;
-        display: flex;
-        align-items: flex-start; 
+        flex-direction:column;
+        display: grid;
+        align-items: flex-start;
+         
 
     }
     .navlink ul {
         flex-direction: column;
-        width: 100%;
+        
     }
 
     .navlink li{
