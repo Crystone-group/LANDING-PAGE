@@ -136,15 +136,18 @@ display: flex;
     }
     .navlink {
         display: none;
-        width: 100%;
+        width: 50%;
+        
         background-color: black;
+        border-radius: 14px 0px 0px 14px;
         
     }
    
 
     .navbar {
-        flex-direction:column;
-        display: grid;
+        
+        flex-direction: row;
+        display: flex;
         align-items: flex-start;
          
 
@@ -155,7 +158,7 @@ display: flex;
     }
 
     .navlink li{
-        text-align: center;
+        text-align: left;
     }
     .navlink li a {
         padding: .5rem 1rem;
