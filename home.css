@@ -518,6 +518,12 @@ div.secondSection {
     
     
   }
+  @media screen and (max-width: 600px) {
+    .connect1{
+        text-align: center;
+        width: 100%;
+    }
+  }
   .connect1 h3{
     text-decoration: solid;
     font-size: 190%;
