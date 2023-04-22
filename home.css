@@ -15,6 +15,7 @@ body {
 /* the header section css code */
 .hero_text {
     align-items: center;
+    margin-bottom: 10%;
     }
     .hero {
         justify-content: center;
@@ -31,12 +32,14 @@ body {
          font-family: 'Poppins';
     }
    .paragraph2{
-      font-family: 'Poppins';
-       font-size: 22px;
+    font-family: 'poppins';
+    font-size: 19px;
+    
        }
    .htext {
        font-family: 'poppins';
-       font-size: 65px;
+       font-size: 48px;
+       
       }
    
    .get_btn {
@@ -59,7 +62,7 @@ body {
         height: 100%;
       }
     }
-   /* the end pf header section css code */
+   /* the end of header section css code */
   
    
 
