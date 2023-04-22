@@ -545,6 +545,11 @@ line-height: 177.02%;
  .learnmore{
   margin-top: 10%;
  }
+ @media screen and (max-width: 600px) {
+    .learnmore {
+        margin-top: 0%;
+     }
+}
  
   .visa{
    
