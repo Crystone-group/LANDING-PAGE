@@ -502,9 +502,10 @@ div.secondSection {
   
   
   .con {
-    width: 60%;
-    height: 90%;
-    margin-left: 15%;
+    width: 658.76px;
+    height: 625.94px;
+    left: 45px;
+    top: 940px;
     
   }
   @media screen and (max-width: 600px) {
@@ -515,8 +516,7 @@ div.secondSection {
   }
 
   .connect1{
-    
-    margin-top: 10%;
+    margin-top: 8%;
     width: 150%;
     
     
@@ -528,38 +528,34 @@ div.secondSection {
     }
   }
   .connect1 h3{
-    text-decoration: solid;
-    font-size: 190%;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+  }
+  .connect1 p {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 177.02%;
+
   }
   
-   .connect a{
-    text-decoration-line: none;
-    background-color: #00A66A;
-    color: aliceblue;
-    margin-right: 65%;
-    display: block;
-    width: 15%;
-    height: 10%;
-    border-radius: 5px;
-     font-size: 15px;
-    font-weight: 200;
-    margin-top: 0%;
-  }
-  @media screen and (max-width: 600px) {
-    .connect a{
-        margin-left: 10%;
-        width: 20%;
-        
-    }
-  }
+ .learnmore{
+  margin-top: 10%;
+ }
  
 
-
-
-
+  .connect2{
+    height: 50%;
+  }
   .visa{
-    width: 20%;
-    height: 40%;
+   
+    left: 58.68%;
+    right: 37.17%;
+    top: 30%;
+    bottom: 69.01%;
   }
   @media screen and (max-width: 600px) {
     .visa{
@@ -568,6 +564,13 @@ div.secondSection {
      
       }
 
+}
+.mastercard{
+    left: 58.68%;
+right: 37.17%;
+top: 30%;
+bottom: 69.01%;
+margin-left: 8%;
 }
   /*end of Wisdom css section */
 
