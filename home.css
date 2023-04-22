@@ -533,23 +533,19 @@ font-style: normal;
 font-weight: 600;
 font-size: 32px;
   }
+ 
   .connect1 p {
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
 font-size: 24px;
 line-height: 177.02%;
-
-  }
+}
   
  .learnmore{
   margin-top: 10%;
  }
  
-
-  .connect2{
-    height: 50%;
-  }
   .visa{
    
     left: 58.68%;
@@ -558,12 +554,9 @@ line-height: 177.02%;
     bottom: 69.01%;
   }
   @media screen and (max-width: 600px) {
-    .visa{
-        width: 40%;
-        height: 40%;
-     
-      }
-
+    .visa {
+       display: none;
+     }
 }
 .mastercard{
     left: 58.68%;
@@ -571,6 +564,13 @@ right: 37.17%;
 top: 30%;
 bottom: 69.01%;
 margin-left: 8%;
+}
+@media screen and (max-width: 600px) {
+    .mastercard{
+       display: none;
+     
+      }
+
 }
   /*end of Wisdom css section */
 
