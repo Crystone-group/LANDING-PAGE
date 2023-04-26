@@ -143,6 +143,7 @@ display: flex;
         
         background-color: black;
         border-radius: 14px 0px 0px 14px;
+       
         
     }
    
@@ -398,16 +399,29 @@ footer{
 /* this is the begining of Taiwo css section */
 
 .firstSection{
-    position: relative;
+    display: flex;
+    
+}
+
+.firstSection .curly{
+   height: 0%;
+    width: 10%;
 }
 
 
+
 .firstSection h1{
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    font-size: 40px;
+    width: 412px;
+    margin-left: 20%;
+    margin-top: 15%;
+
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 10px;
+font-size: 35px;
+text-align: center;
 }
 @media screen and (max-width: 600px) {
     .firstSection h1{
@@ -420,18 +434,48 @@ footer{
     }
 }
 
-.firstSection .curly{
-    width: 10%;
-    height: 4%;
-}
+
 .firstSection .starr{
-    margin-left: 60%;
+    margin-left: 790%;
+    margin-top: 660%;
+}
+.secondSection p{
+    width: 560px;
+
+  left: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-size: 23px;
+}
+.secondSection p::before{
+    content: ".";
+    font-size: 50px;
+    align-items: center;
+    margin-right: 0.5%;
+    line-height: 0%;
+}
+.secondSection h1{
+    width: 450px;
+
+left: 0px;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 0;
+font-size: 40px;
+margin-top: 25%;
+line-height: 0%;
+
 }
 
-.secondSection .daily{
-    width: 40%;
-    height: 100%;
-    margin-inline: 15%;
+.daily{
+    width: 446px;
+    height: 544px;
+    margin-left: 5%;
+    top: 2938px;
+    
 }
 
 @media screen and (max-width: 600px) {
@@ -444,13 +488,10 @@ footer{
 
 div.secondSection {
     display: flex ;
-    justify-content: center;
+    margin-left: 5%;
     margin-top: 0%;
-    margin-left: 20%;
-    font-size: 130%;
-    width: fit-content;
-    top: 50%;
-    word-wrap: break-word;
+    
+   
 }
 
 @media screen and (max-width: 600px) {
@@ -467,6 +508,7 @@ div.secondSection {
 
 .star{
     margin-left: 50%;
+    
 }
 
 @media screen and (max-width: 600px) {
