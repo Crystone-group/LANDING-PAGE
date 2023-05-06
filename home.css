@@ -292,6 +292,11 @@ display: flex;
     right: 0;
     bottom: 20px;
 }
+@media screen and (max-width: 600px) {
+    .string{
+        display: none;
+    }
+}
 
 .grid2{
     display: grid;
@@ -401,12 +406,14 @@ footer{
 .firstSection{
     display: flex;
     
+    
 }
 
 .firstSection .curly{
    height: 0%;
     width: 10%;
 }
+
 
 
 
@@ -425,9 +432,9 @@ text-align: center;
 }
 @media screen and (max-width: 600px) {
     .firstSection h1{
-        position: absolute;
+      margin-left: 10%;
         top: 50%;
-        width: 100%;
+        margin-top: 35%;
         text-align: center;
         font-size: 25px;
     
@@ -448,6 +455,12 @@ font-family: 'Poppins';
 font-style: normal;
 font-size: 23px;
 }
+@media screen and (max-width: 600px) {
+    .secondSection p{
+        width: 350px;
+        font-size: 16px;
+        line-height: 150%;
+    }}
 .secondSection p::before{
     content: ".";
     font-size: 50px;
@@ -469,6 +482,14 @@ margin-top: 25%;
 line-height: 0%;
 
 }
+@media screen and (max-width: 600px) {
+    .secondSection h1{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+margin-top: 0%;
+}}
 
 .daily{
     width: 446px;
@@ -480,8 +501,8 @@ line-height: 0%;
 
 @media screen and (max-width: 600px) {
     .secondSection .daily{
-        width: 90%;
-        height: 110%;
+        width: 65%;
+        height: 100%;
         
     }
 }
@@ -497,12 +518,12 @@ div.secondSection {
 @media screen and (max-width: 600px) {
     div.secondSection {
         display: grid ;
-        justify-content: center;
-        margin-top: 0%;
+        
+        
         margin-left: 10%;
-        font-size: 110%;
+        font-size: 30%;
         width: fit-content;
-        top: 50%;
+       
     }
 }
 
@@ -554,6 +575,7 @@ div.secondSection {
     .con {
     width: 90%;
     height: 110%;
+    margin-left: 5%;
   }
   }
 
@@ -575,6 +597,14 @@ font-style: normal;
 font-weight: 600;
 font-size: 32px;
   }
+  @media screen and (max-width: 600px) {
+    .connect1 h3{
+    font-style: normal;
+    font-size: 25px;
+    
+    font-weight: 600;
+}
+  }
  
   .connect1 p {
     font-family: 'Poppins';
@@ -583,13 +613,22 @@ font-weight: 400;
 font-size: 24px;
 line-height: 177.02%;
 }
+@media screen and (max-width: 600px) {
+    .connect1 p {
+        font-style: normal;
+        font-size: 16px;
+        line-height: 150%;
+
+
+}}
   
  .learnmore{
   margin-top: 10%;
  }
  @media screen and (max-width: 600px) {
     .learnmore {
-        margin-top: 0%;
+        display: none;
+
      }
 }
  
