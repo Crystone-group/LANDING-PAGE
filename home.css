@@ -183,12 +183,40 @@ display: flex;
 }
 
 .top{
-    text-align: center;
-    margin-bottom: 2em;
-    font-weight: bold;
-    font-size: larger;
-    
+    width: 412px;
+height: 114px;
+left: 514px;
+top: 1779px;
+font-family: 'Poppins';
+font-weight: 600;
+font-size: 32px;
+line-height: 177.02%;
+margin-left: 35%;
+color: #000000;
+text-align: center;
+margin-top: 10%;
 }
+@media screen and (max-width: 600px) {
+    .top{
+        width: 190px;
+height: 40px;
+left: 119px;
+top: 675px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 135.52%;
+/* or 20px */
+
+text-align: center;
+
+color: #FEBB21;
+
+    }
+}
+
 
 .grid-container{
     display: grid;
@@ -199,20 +227,23 @@ display: flex;
     'h b i'
     'j b k';
     
-    left: 517px;
-    right: 517px;
     
 }
 @media screen and (max-width: 600px) {
     .grid-container{
         display: grid;
         grid-template-areas: 
-        'a c'
-        'd e'
-        'b b'
-        'f g'
-        'h i'
-        'j k';
+        'a'
+        'c'
+        'd'
+        'e'
+        'b'
+        'f'
+        'g'
+        'h' 
+        'i'
+        'j' 
+        'k';
         margin: 0 auto;
         width: fit-content;
     }
@@ -220,14 +251,55 @@ display: flex;
 
 .item1{
     grid-area: a;
+    max-width: 100%;
+}
+.item1 p{
+    margin-left: 14%;
+    line-height: 155%;
+}
+@media screen and (max-width: 600px) {
+    .item1 p, .item2 p, .item3 p, .item5 p, .item6 p, .item7 p, .item8 p, .item9 p, .item10 p, .item11 p{
+        width: 147px;
+        height: 63px;
+        left: 162.41px;
+        top: 733px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 8px;
+        line-height: 177.02%; 
+}}
+.item1 img{
+    margin-left: 15%;
+}
+@media screen and (max-width: 600px) {
+    .item1 img, .item2 img, .item3 img,  .item5 img, .item6 img, .item7 img, .item8 img, .item9 img, .item10 img, .item11 img{
+        width: 40px;
+height: 40px;
+left: 104px;
+top: 745px
+    }
 }
 
 .item2{
     grid-area: d;
 }
+.item2 p{
+    margin-left: 14%;
+}
+.item2 img{
+    margin-left: 15%;
+}
 
 .item3{
     grid-area: f;
+}
+.item3 p{
+    margin-left: 14%;
+}
+.item3 img{
+    margin-left: 15%;
 }
 
 .item4{
@@ -237,46 +309,114 @@ display: flex;
 
 .item5{
     grid-area: c;
+    
 }
+    .item5 p{
+        margin-right: 14%;
+    }
+    .item5 img{
+        margin-right: 15%;
+       
+    }
 
 .item6{
     grid-area: e;
+   }
+   .item6 p{
+    margin-right: 14%;
+}
+.item6 img{
+    margin-right: 15%;
+   
 }
 
 .item7{
     grid: g;
+}
+.item7 p{
+    margin-right: 14%;
+}
+.item7 img{
+    margin-right: 15%;
+   
 }
 
 .item8{
     grid-area: h;
 }
 
+.item8 p{
+    margin-left: 14%;
+}
+.item8 img{
+    margin-left: 15%;
+}
+
 .item9{
     grid-area: j;
+}
+.item9 p{
+    margin-left: 14%;
+}
+.item9 img{
+    margin-left: 15%;
 }
 
 .item10{
     grid-area: i;
 }
+.item10 p{
+    margin-right: 14%;
+}
+.item10 img{
+    margin-right: 15%;
+   
+}
 
 .item11{
     grid-area: k;
 }
+.item11 p{
+    margin-right: 14%;
+}
+.item11 img{
+    margin-right: 15%;
+   
+}
 
 .iphone-img{
-    height: 46em;
+    width: 445.44px;
+height: 717px;
+margin-left: 110%;
+top: 1953px;
+}
+@media screen and (max-width: 600px) {
+    .iphone-img{
+        width: 246px;
+    height: 344px;
+    margin-left: 5%;
+    top: 2938px;
+    }
 }
 
 .flex{
-    height: 52px;
-    width: 52px;
-    margin-left: 120px;
-}
+    width: 89px;
+    height: 89px;
+    left: 67px;
+    top: 2044px;
+    }
 
-.item1, .item2, .item3, .item5, .item6, .item7, .item8, .item9, .item10, .item11{
+.item1, .item2, .item3,  .item8, .item9{
     display: flex;
     align-items: center;
+
 }
+.item5, .item6, .item7, .item10, .item11{
+    display: flex;
+    align-items: center;
+    
+}
+
 @media screen and (max-width: 600px) {
     .item1, .item2, .item3, .item5, .item6, .item7, .item8, .item9, .item10, .item11{
         display: flex;
@@ -286,11 +426,11 @@ display: flex;
 }
 
 .string{
-    width: 10em;
-    height: 12em;
-    position: absolute;
-    right: 0;
-    bottom: 20px;
+    width: 227.88px;
+    height: 441.92px;
+   margin-left: 82%;
+   display: none;
+
 }
 @media screen and (max-width: 600px) {
     .string{
