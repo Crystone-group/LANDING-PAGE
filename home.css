@@ -1,10 +1,12 @@
 * {
     box-sizing: border-box;
+    
 }
 
 body{
     margin: 0%;
     padding: 0%;
+   overflow-x: hidden;
 }
 @import url('https://fonts.google.com/css?family=Poppins');
 body {
@@ -135,7 +137,8 @@ display: flex;
   @media (max-width: 600px ) {
     .toggle-button{
         display: flex;
-
+        
+        
     }
     .navlink {
         display: none;
@@ -572,7 +575,7 @@ text-align: center;
 }
 @media screen and (max-width: 600px) {
     .firstSection h1{
-      margin-left: 5%;
+      margin-left: 0%;
         top: 50%;
         text-align: center;
         font-size: 20px;
@@ -637,6 +640,7 @@ font-style: normal;
 font-weight: 600;
 font-size: 22px;
 margin-top: 0%;
+
 }}
 
 .daily{
