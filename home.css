@@ -6,7 +6,7 @@
 body{
     margin: 0%;
     padding: 0%;
-   overflow-x: hidden;
+  
 }
 @import url('https://fonts.google.com/css?family=Poppins');
 body {
@@ -177,30 +177,34 @@ display: flex;
     }
   /* end of  TOGGLE BUTTON responsivness CSS CODE */
 
+/* TAIWO modified thi CSS section */
 
-/* Osgood CSS section */
-
-@font-face{
-    font-family: poppins;
-    src: url(“poppins/Poppins-Regular.ttf”)
+section {
+    display: flex;
+    margin-left: 2%;
 }
-
-.top{
+@media screen and (max-width: 600px) {
+    section {
+        display: inline;
+        
+    }
+}
+.rd{
     width: 412px;
 height: 114px;
 left: 514px;
 top: 1779px;
 font-family: 'Poppins';
+font-style: normal;
 font-weight: 600;
 font-size: 32px;
 line-height: 177.02%;
-margin-left: 35%;
-color: #000000;
 text-align: center;
-margin-top: 10%;
+margin-left: 35%;
+margin-bottom: 3%;
 }
 @media screen and (max-width: 600px) {
-    .top{
+    .rd{
         width: 190px;
 height: 40px;
 left: 119px;
@@ -216,230 +220,133 @@ line-height: 135.52%;
 text-align: center;
 
 color: #FEBB21;
-
     }
 }
-
-
-.grid-container{
-    display: grid;
-    grid-template-areas: 
-    'a b c'
-    'd b e'
-    'f b g'
-    'h b i'
-    'j b k';
-    
-    
+.phonex {
+    width: 400px;
+height: 680px;
+left: 517px;
+top: 1953px;
 }
 @media screen and (max-width: 600px) {
-    .grid-container{
-        display: grid;
-        grid-template-areas: 
-        'a'
-        'c'
-        'd'
-        'e'
-        'b'
-        'f'
-        'g'
-        'h' 
-        'i'
-        'j' 
-        'k';
-        margin: 0 auto;
-        width: fit-content;
+    .phonex{
+        width: 200px;
+        height: 380px;
+        left: 517px;
+        top: 1953px; 
+        margin-left: 15%;
     }
 }
-
-.item1{
-    grid-area: a;
-    max-width: 100%;
-}
-.item1 p{
-    margin-left: 14%;
-    line-height: 155%;
+.rec4 {
+    width: 89px;
+height: 89px;
+left: 67px;
+top: 2044px;
 }
 @media screen and (max-width: 600px) {
-    .item1 p, .item2 p, .item3 p, .item5 p, .item6 p, .item7 p, .item8 p, .item9 p, .item10 p, .item11 p{
-        width: 147px;
-        height: 63px;
-        left: 162.41px;
-        top: 733px;
-        
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 8px;
-        line-height: 177.02%; 
-}}
-.item1 img{
-    margin-left: 15%;
-}
-@media screen and (max-width: 600px) {
-    .item1 img, .item2 img, .item3 img,  .item5 img, .item6 img, .item7 img, .item8 img, .item9 img, .item10 img, .item11 img{
+    .rec4{
         width: 40px;
 height: 40px;
 left: 104px;
 top: 745px
     }
 }
+.rec1{
+    width: 312px;
+height: 70px;
+left: 206px;
+top: 2054px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 177.02%;
+margin-left: 15%;
+}
+@media screen and (max-width: 600px) {
+    .rec1{
+        width: 147px;
+height: 63px;
+left: 162.41px;
+top: 733px;
 
-.item2{
-    grid-area: d;
-}
-.item2 p{
-    margin-left: 14%;
-}
-.item2 img{
-    margin-left: 15%;
-}
-
-.item3{
-    grid-area: f;
-}
-.item3 p{
-    margin-left: 14%;
-}
-.item3 img{
-    margin-left: 15%;
-}
-
-.item4{
-    grid-area: b;
-    width: 10%;
-}
-
-.item5{
-    grid-area: c;
-    
-}
-    .item5 p{
-        margin-right: 14%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 177.02%;
     }
-    .item5 img{
-        margin-right: 15%;
-       
-    }
-
-.item6{
-    grid-area: e;
+}
+span >div {
+    display: flex;
    }
-   .item6 p{
-    margin-right: 14%;
-}
-.item6 img{
-    margin-right: 15%;
-   
-}
+   @media screen and (max-width: 600px) {
+    span >div {
+        width: 205.41px;
+height: 63px;
+left: 104px;
+top: 733px;
+margin-left: 15%;
 
-.item7{
-    grid: g;
-}
-.item7 p{
-    margin-right: 14%;
-}
-.item7 img{
-    margin-right: 15%;
-   
-}
-
-.item8{
-    grid-area: h;
-}
-
-.item8 p{
-    margin-left: 14%;
-}
-.item8 img{
-    margin-left: 15%;
-}
-
-.item9{
-    grid-area: j;
-}
-.item9 p{
-    margin-left: 14%;
-}
-.item9 img{
-    margin-left: 15%;
-}
-
-.item10{
-    grid-area: i;
-}
-.item10 p{
-    margin-right: 14%;
-}
-.item10 img{
-    margin-right: 15%;
-   
-}
-
-.item11{
-    grid-area: k;
-}
-.item11 p{
-    margin-right: 14%;
-}
-.item11 img{
-    margin-right: 15%;
-   
-}
-
-.iphone-img{
-    width: 445.44px;
-height: 717px;
-margin-left: 110%;
-top: 1953px;
-}
-@media screen and (max-width: 600px) {
-    .iphone-img{
-        width: 246px;
-    height: 344px;
-    margin-left: 5%;
-    top: 2938px;
-    }
-}
-
-.flex{
+       }
+   }
+.rect5{
     width: 89px;
-    height: 89px;
-    left: 67px;
-    top: 2044px;
-    }
-
-.item1, .item2, .item3,  .item8, .item9{
-    display: flex;
-    align-items: center;
-
+height: 89px;
+left: 967px;
+top: 2044px;
 }
-.item5, .item6, .item7, .item10, .item11{
-    display: flex;
-    align-items: center;
+@media screen and (max-width: 600px) {
+    .rect5{
+        width: 40px;
+height: 40px;
+left: 104px;
+top: 745px
+    }
+}
+.rect2{
+    width: 250px;
+    height: 70px;
+    left: 1106px;
+    top: 2054px;
     
-}
-
-@media screen and (max-width: 600px) {
-    .item1, .item2, .item3, .item5, .item6, .item7, .item8, .item9, .item10, .item11{
-        display: flex;
-        align-items: center;
-        width: 50%;
-    }
-}
-
-.string{
-    width: 227.88px;
-    height: 441.92px;
-   margin-left: 82%;
-   display: none;
-
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 177.02%;
+    margin-left: 15%;
 }
 @media screen and (max-width: 600px) {
-    .string{
-        display: none;
+    .rect2{
+        width: 147px;
+height: 63px;
+left: 162.41px;
+top: 733px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 177.02%;
     }
 }
+.spann{
+    margin-top: 6%;
+    margin-left: 3%;
+}
+.spannn {
+    margin-top: 6%;
+    margin-left: 3%;
+}
+
+
+
+/* TAIWO modified thi CSS section */
+
+
+/* Osgood CSS section */
+
 
 .grid2{
     display: grid;
