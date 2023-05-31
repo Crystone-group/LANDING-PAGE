@@ -95,19 +95,21 @@ margin-top: 13%;
 }
 @media screen and (max-width: 600px) {
   .wel2{
-      width: 354px;
-height: 48px;
-left: 38px;
-top: 130px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 153.52%;
-text-align: center;
-color: #01A86E;
+    width: 354px;
+    height: 48px;
+    left: 38px;
+    top: 130px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 153.52%;
+    
+    
+    text-align: center;
 margin-top: 0%;
+margin-left: 10%;
   }
 }
 .wel3{
@@ -187,7 +189,7 @@ form{
   @media screen and (max-width: 600px) {
       form{
           margin-top: 8%;
-          margin-left: 10%;
+          margin-left: 15%;
       }
   }
 
@@ -221,7 +223,7 @@ text-align: center;
 }
 @media screen and (max-width: 600px) {
   .input-field{
-      width: 350.1px;
+      width: 280.1px;
 height: 50.27px;
 font-size: 80%;
 
