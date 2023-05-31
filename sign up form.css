@@ -1,80 +1,38 @@
 *{
-  margin:0;
-  padding: 0;
-
+    
+  box-sizing: border-box;
   
 }
-
-
 body{
-width: 100%;
-height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
-
-.icon{
-cursor: pointer;
-display: flex;
-margin: auto;
-align-items: center;
-justify-content: center;
-gap: 25px;
-height: 56.40449523925781px;
-width: 56.40449523925781px;
-left: 931px;
-top: 242px;
-border-radius: 0px;
+section {
+  display: flex;
 }
-
-/* .social-icon{
-font-size: ;
-margin-left: 934px;
-justify-items: center;
-align-items: center;
-box-sizing: border-box;
-position: absolute;
-width: 56.4px;
-height: 56.4px;
-left: 934px;
-top: 227px;
-
-} */
-
-
-.grid-container{
-display: grid;
-grid-template-columns:1fr 1fr ;
-grid-template-rows: 1fr 0;
-margin-right: auto;
-
-
+@media screen and (max-width: 600px) {
+  section {
+      display: inline;
+  }
 }
-
-
-.grid-item-welcome{
-background-image: url("./Images/Rectangle 13.png");
-background-size: cover;
-/* position: absolute; */
+.wel{
+  background-image: url("./Images/Rectangle 13.png");
+  background-size: cover;
 width: 717px;
 height: 1024px;
-left: 0px;
-top: 0px;
-/* background: url(image.png); */
-mix-blend-mode: multiply;
-opacity: 0.7;
-/* margin-left: 5%; */
-/* margin-right: 5%; */
-/* margin: auto; */
+
 }
-
-/* .form{
-margin-left: 10%;
-margin-right: 20%;
-} */
-
-
-h1{
- position: absolute;
-width: 430px;
+@media screen and (max-width: 600px) {
+  .wel{
+      background-image: url("./Images/Rectangle 13M.png");
+      background-size: cover;
+     
+width: 100%;
+height: 100%;        
+      }
+}
+.wel1{
+  width: 430px;
 height: 69px;
 left: 144px;
 top: 305px;
@@ -83,13 +41,44 @@ font-style: normal;
 font-weight: 700;
 font-size: 57.0526px;
 line-height: 69px;
-/* identical to box height */
 color: #00A86B;
+margin-top: 21%;
+margin-left: 27%;
 }
+@media screen and (max-width: 600px) {
+  .wel1{
+      width: 241px;
+height: 39px;
+left: 95px;
+top: 81px;
 
-p{
-position: absolute;
-width: 542px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+color: #00A86B;
+margin-top: 0%;
+
+  }
+}
+.welll{
+  width: 310px;
+height: 149.34px;
+left: 49px;
+top: 33px;
+margin-left: 5%;
+}
+@media screen and (max-width: 600px) {
+  .welll{
+      width: 430px;
+height: 296px;
+      
+      margin-left: 0%;  
+  }
+}
+.wel2{
+  width: 542px;
 height: 98px;
 left: 88px;
 top: 461px;
@@ -98,147 +87,155 @@ font-style: normal;
 font-weight: 400;
 font-size: 32.0921px;
 line-height: 153.52%;
-/* or 49px */
 text-align: center;
 color: #01A86E;
+margin-left: 17%;
+margin-top: 13%;
 
 }
+@media screen and (max-width: 600px) {
+  .wel2{
+      width: 354px;
+height: 48px;
+left: 38px;
+top: 130px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 153.52%;
+text-align: center;
+color: #01A86E;
+margin-top: 0%;
+  }
+}
+.wel3{
+  width: 384.63px;
+height: 87px;
+left: 167px;
+top: 635px;
+margin-top: 10%;
+margin-left: 27%;
+}
+@media screen and (max-width: 600px) {
+  .wel3{
+      width: 203.37px;
+height: 46px;
+margin-top: 5%;
+margin-bottom: 15%;
 
 
-
-
+  }
+}
 h2{
+  width: 491px;
 height: 77px;
-width: 491px;
 left: 837px;
 top: 81px;
-border-radius: nullpx;
-color: #FEBB21;
-/* background: #FEBB21; */
-font-family: Inter;
-font-size: 64px;
+
+font-family: 'Inter';
+font-style: normal;
 font-weight: 700;
+font-size: 64px;
 line-height: 77px;
-letter-spacing: 0em;
-text-align: center;
-justify-content: center;
-margin: auto;
 
-
+color: #FEBB21;
+margin-left: 20%;
+margin-top: 17%;
 }
-/* css for forms */
+@media screen and (max-width: 600px) {
+  h2{
+      width: 246px;
+height: 39px;
+left: 91px;
+top: 325px;
 
-.form{
-width: 604px;
-margin-left: 7%;
-margin-right: 15%;
-/* padding: auto; */
-display: flex ;
-flex-direction: column;
-padding: 26.62px;
-padding-bottom:0;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 39px;
+  }
 }
-
-.form label{
-display: flex;
-flex-direction: column;
-margin-bottom: 26.62px;
-
+.socials{
+ margin-left: 30%;
+  margin-top: 20%;
 }
-
-form label i{
-margin-right: 103px;
-font-size: 28.9341px;
-font-family: Inter;
-
+@media screen and (max-width: 600px) {
+  .socials{
+      margin-left: 20%;
+       margin-top: 5%;
+   }
 }
 
-.form input{
-padding:px;
-font-size:px;
-border: 1px;
-border-radius: px;
-
+.socials a{
+  margin: 5%;
 }
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f6f6f6;
+.faceebook{
+  margin-right: 5%;
+}
+@media screen and (max-width: 600px) {
+  .faceebook{
+      width: 5%;
+  }
+}
+form{
+  margin-top: 17%;
+  margin-left: 15%;
+  }
+  @media screen and (max-width: 600px) {
+      form{
+          margin-top: 8%;
+          margin-left: 10%;
+      }
+  }
+
+.input-icons i {
+  position: absolute;
+  margin-top: 1%;
+ 
 }
 
-input[type=text]:focus, input[type=password]:focus {
-  background: #F6F6F6;
+.input-icons {
 
-  outline: none;
-}
-
-/* hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-} */
-
-/* Set a style for all buttons */
-
-
-/* button:hover {
-  cursor: pointer; */
-  /* opacity:1; */
+  margin-bottom: 5%;
   
-
-
-.submit-button1 {
-  position: absolute;
-  width: 119px;
-  height: 49px;
-  left: 300px;
-  top: 654px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 153.52%;
-  /* or 49px */
-  text-align: center;
-
-  color: #00A86B;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  box-sizing: border-box;
-
-  /* position: absolute; */
-  width: 384.63px;
-  height: 87px;
-  left: 167px;
-  top: 635px;
-  border: 0.915789px solid #01A86E;
-  border-radius: 45.7895px;
 }
-/* .button2{
 
-} */
 
-.submit-button2{
-  margin: 150px 0;
-  font-size: 16px;
-  cursor: pointer;
-  position: absolute;
-  width: 384.63px;
-  height: 87px;
-  left: 890px;
-  top: 696px;
-  background: rgba(254, 177, 0, 0.87);
-  border: #FEBB21;
-  border-radius: 45.7895px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 153.52%;
-  text-align: center;
-  color: #FFFFFF; 
-} 
+.icon {
+  padding: 10px;
+  
+ 
+  
+}
+
+.input-field {
+  border: none;
+  font-size: 150%;
+  width: 504px;
+height: 61.38px;
+background: #F6F6F6;
+text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .input-field{
+      width: 350.1px;
+height: 50.27px;
+font-size: 80%;
+
+  }
+}
+.signupbutton {
+  margin-top: 10%;
+  margin-left: 10%;
+}
+@media screen and (max-width: 600px) {
+  .signupbutton{
+      width: 237.59px;
+height: 53.74px;
+margin-top: 0%;
+margin-bottom: 15%;
+  }
+}
