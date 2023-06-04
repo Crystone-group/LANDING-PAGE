@@ -338,7 +338,7 @@ line-height: 177.02%;
 
 
 
-/* TAIWO modified thi CSS section */
+/* TAIWO modified this CSS section */
 
 
 /* Osgood CSS section */
@@ -716,5 +716,44 @@ margin-left: 8%;
 }
   /*end of Wisdom css section */
 
+   
+  
+  /* this the readmore css codes */
 
+.Readmore{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .Readmore {
+        display: inline;
+        
+   
+    }
+    .Readmore button{
+        width: 90px;
+        height: 27px;
+        background: #00A66A;
+        border-radius: 3px;
+        position: absolute;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+margin-left: 60%;
+text-align: center;
+border:0;
+
+
+
+
+color: #FFFFFF;
+    }
+    .readmoree{
+        display: none;
+    }
+    .readmoree.active {
+        display:contents;
+    }
+}
  

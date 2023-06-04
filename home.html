@@ -19,11 +19,20 @@
             toggleButton.addEventListener("click", () => {
               navlink.classList.toggle("active");
             });
-          };
+         
+       
+        
+         
+            const Readmoreee = document.getElementsByClassName("Readmore")[0];
+            const readmoree = document.getElementsByClassName("readmoree")[0];
           
-
-
-    </script>
+            Readmoreee.addEventListener("click", () => {
+                Readmoreee.style.display = 'none';
+              readmoree.classList.toggle("active");
+            });
+          };
+        </script>
+  
    
 
 
@@ -190,6 +199,12 @@
      
      <!--Taiwo modified this section-->
 
+     
+     <div>
+     <div class="readmoree">
+
+
+     
      <!--This is Taiwo's html content-->
      <aside>
        
@@ -293,6 +308,12 @@
             </div>
         </div>
     </footer>
-
+</div>
+    
+    
+    <a href="#" class="Readmore">
+    <button>READ MORE</button>
+    </a>   
+</div>
 </body>
 </html>
